@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Aula09FixationExerc01
+﻿namespace Aula09FixationExerc01
 {
     class Product
     {
