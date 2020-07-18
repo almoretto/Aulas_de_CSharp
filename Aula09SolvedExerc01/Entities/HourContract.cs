@@ -18,7 +18,7 @@ namespace Aula09SolvedExerc01.Entities
 
         public double TotalValue()
         {
-            return Hours * ValuePerHour;
+            return Hours * ValuePerHour; ;
         }
     }
 }

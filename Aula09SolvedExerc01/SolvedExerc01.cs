@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using Aula09SolvedExerc01.Entities;
 using Aula09SolvedExerc01.Entities.Enums;
 
@@ -42,7 +43,7 @@ namespace Aula09SolvedExerc01
                 //Calling method AddContract() of the worker instance.
                 worker.AddContract(contract);
             }
-
+            
             Console.WriteLine();
             Console.Write("Enter month and year to calculate income (MM/YYYY): ");
             string monthAndYear = Console.ReadLine();
@@ -51,7 +52,7 @@ namespace Aula09SolvedExerc01
             //Final Display
             Console.WriteLine("Name: " +worker.Name);
             Console.WriteLine("Department: " + worker.Department.Name);
-            Console.WriteLine("Income for " + monthAndYear + ": "+ worker.Income(year, month));
+            Console.WriteLine("Income for " + monthAndYear + ": "+ worker.Income(year, month).ToString("C",CultureInfo.CreateSpecificCulture("pt-BR")));
         }
     }
 }
