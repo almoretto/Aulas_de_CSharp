@@ -56,7 +56,7 @@ namespace Aula09FixationExerc01
             sb.Append(Client.BirthDate.ToString("dd/MM/yyyy"));
             sb.Append(") - ");
             sb.AppendLine(Client.Email);
-            sb.AppendLine("======================================")
+            sb.AppendLine("======================================");
             sb.AppendLine("Order items:");
             foreach (OrderItem item in OrderItems)
             {
