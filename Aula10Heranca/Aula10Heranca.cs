@@ -2,7 +2,7 @@
 
 namespace Aula10Heranca
 {
-    class Program
+    class Aula10Heranca
     {
         static void Main(string[] args)
         {

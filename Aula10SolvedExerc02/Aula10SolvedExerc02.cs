@@ -5,7 +5,7 @@ using System.Globalization;
 
 namespace Aula10SolvedExerc02
 {
-    class Program
+    class Aula10SolvedExerc02
     {
         static void Main(string[] args)
         {
