@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Exercicios_02_Aula_04
+﻿namespace Exercicios_02_Aula_04
 {
     class Funcionario
     {
