@@ -53,9 +53,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula10Exerc1FIx", "..\Aula1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula10AbstractClasses", "..\Aula10AbstractClasses\Aula10AbstractClasses.csproj", "{D23DC263-8305-4866-B193-97231F6BF508}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula10AbstractMethods", "..\Aula10AbstractMethods\Aula10AbstractMethods.csproj", "{A376E0C2-300D-4667-A73C-1DE0457CAC85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula10AbstractMethods", "..\Aula10AbstractMethods\Aula10AbstractMethods.csproj", "{A376E0C2-300D-4667-A73C-1DE0457CAC85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula10FixationExerc02", "..\Aula10FixationExerc02\Aula10FixationExerc02.csproj", "{4D93F761-FF99-4E0F-9611-615042B57DA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula10FixationExerc02", "..\Aula10FixationExerc02\Aula10FixationExerc02.csproj", "{4D93F761-FF99-4E0F-9611-615042B57DA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula11FixationExerc", "..\Aula11FixationExerc\Aula11FixationExerc.csproj", "{387519DB-6CEC-4B02-9748-E7A98F23EBA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula13WorkingWithFilesDemo", "..\Aula13WorkingWithFilesDemo\Aula13WorkingWithFilesDemo.csproj", "{A990D982-438D-4FEF-AF66-AA93740EBEB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula13UsingBlock", "..\Aula13UsingBlock\Aula13UsingBlock.csproj", "{9D68FD63-E749-464D-BDDF-17E87171DD72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula13Directory", "..\Aula13Directory\Aula13Directory.csproj", "{05404BF8-97B4-4444-8E1A-8E3AC5CB33DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula13Path", "..\Aula13Path\Aula13Path.csproj", "{9D120221-A76A-4EBA-BC55-8EA9AD8FDF6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula13Exercicio", "..\Aula13Exercicio\Aula13Exercicio.csproj", "{3980BF53-C850-4952-BF19-718F7AC6D3AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +183,30 @@ Global
 		{4D93F761-FF99-4E0F-9611-615042B57DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D93F761-FF99-4E0F-9611-615042B57DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D93F761-FF99-4E0F-9611-615042B57DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{387519DB-6CEC-4B02-9748-E7A98F23EBA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387519DB-6CEC-4B02-9748-E7A98F23EBA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387519DB-6CEC-4B02-9748-E7A98F23EBA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387519DB-6CEC-4B02-9748-E7A98F23EBA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A990D982-438D-4FEF-AF66-AA93740EBEB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A990D982-438D-4FEF-AF66-AA93740EBEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A990D982-438D-4FEF-AF66-AA93740EBEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A990D982-438D-4FEF-AF66-AA93740EBEB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D68FD63-E749-464D-BDDF-17E87171DD72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D68FD63-E749-464D-BDDF-17E87171DD72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D68FD63-E749-464D-BDDF-17E87171DD72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D68FD63-E749-464D-BDDF-17E87171DD72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05404BF8-97B4-4444-8E1A-8E3AC5CB33DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05404BF8-97B4-4444-8E1A-8E3AC5CB33DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05404BF8-97B4-4444-8E1A-8E3AC5CB33DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05404BF8-97B4-4444-8E1A-8E3AC5CB33DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D120221-A76A-4EBA-BC55-8EA9AD8FDF6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D120221-A76A-4EBA-BC55-8EA9AD8FDF6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D120221-A76A-4EBA-BC55-8EA9AD8FDF6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D120221-A76A-4EBA-BC55-8EA9AD8FDF6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3980BF53-C850-4952-BF19-718F7AC6D3AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3980BF53-C850-4952-BF19-718F7AC6D3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3980BF53-C850-4952-BF19-718F7AC6D3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3980BF53-C850-4952-BF19-718F7AC6D3AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
