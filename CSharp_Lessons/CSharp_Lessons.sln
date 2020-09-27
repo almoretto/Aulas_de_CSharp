@@ -73,7 +73,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula14InterfacesRentalCarSo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula14ExercicioFix", "..\Aula14ExercicioFix\Aula14ExercicioFix.csproj", "{74776BB6-6E44-4360-9BED-9EA03E55BA56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula14Icomparable", "..\Aula14Icomparable\Aula14Icomparable.csproj", "{7021F172-F53F-44A3-B45A-F0EDBA02B207}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula14Icomparable", "..\Aula14Icomparable\Aula14Icomparable.csproj", "{7021F172-F53F-44A3-B45A-F0EDBA02B207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula15HashCodeEquals", "..\Aula15HashCodeEquals\Aula15HashCodeEquals.csproj", "{71F84848-D127-4D2A-BF3E-63F815677E37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +227,10 @@ Global
 		{7021F172-F53F-44A3-B45A-F0EDBA02B207}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7021F172-F53F-44A3-B45A-F0EDBA02B207}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7021F172-F53F-44A3-B45A-F0EDBA02B207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F84848-D127-4D2A-BF3E-63F815677E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F84848-D127-4D2A-BF3E-63F815677E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F84848-D127-4D2A-BF3E-63F815677E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F84848-D127-4D2A-BF3E-63F815677E37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
