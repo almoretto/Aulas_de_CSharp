@@ -3,13 +3,14 @@ using Aula14InterfacesRentalCarSolvedProblem.Entities;
 
 namespace Aula14InterfacesRentalCarSolvedProblem.Services
 {
+    //Especific class where the business rules is placed.
     class RentalServices
     {
         public double PricePerHour { get; private set; }
         public double PricePerDay { get; private set; }
-        //instance
+        //instance of the service --==Interface==--
         private ITaxService _taxServices;
-        public RentalServices(double pricePerHour, double pricePerDay, ITaxService taxService)
+        public RentalServices(double pricePerHour, double pricePerDay, ITaxService taxService/*The parameter to the Interface*/)
         {
             PricePerHour = pricePerHour;
             PricePerDay = pricePerDay;

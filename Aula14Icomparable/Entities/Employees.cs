@@ -3,7 +3,7 @@ using System;
 
 namespace Aula14Icomparable.Entities
 {
-    class Employees : IComparable
+    class Employees : IComparable //Henrit from IComparable to create a comparable class --== See Method CompareTo()
     {
         public string Name { get; set; }
         public double Salary { get; set; }
@@ -22,7 +22,7 @@ namespace Aula14Icomparable.Entities
                 + Salary.ToString("F2", CultureInfo.InvariantCulture);
         }
 
-        public int CompareTo(object obj)
+        public int CompareTo(object obj) //Declaration Of who is to compare to.
         {
             if (!(obj is Employees))
             {

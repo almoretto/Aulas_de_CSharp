@@ -3,7 +3,7 @@ namespace Aula14InterfacesRentalCarSolvedProblem.Services
 {
     class BrazilTaxServices : ITaxService //Depency declaration same as inheritance
     {
-        public double Tax(double amount)
+        public double Tax(double amount) //Creation of the method of the contrct It´s obliged
         {
             if (amount <= 100)
             {
