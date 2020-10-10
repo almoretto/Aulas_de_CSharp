@@ -81,6 +81,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula15HashsetSortedSet", ".
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula15ExercicioResolvidoSet", "..\Aula15ExercicioResolvidoSet\Aula15ExercicioResolvidoSet.csproj", "{D926272A-38E2-467A-B6E2-42E411993317}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula15ExercicioSetProp", "..\Aula15ExercicioSetProp\Aula15ExercicioSetProp.csproj", "{DFA294BF-B761-46E0-8F48-6CFF83289504}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{D926272A-38E2-467A-B6E2-42E411993317}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D926272A-38E2-467A-B6E2-42E411993317}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D926272A-38E2-467A-B6E2-42E411993317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA294BF-B761-46E0-8F48-6CFF83289504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA294BF-B761-46E0-8F48-6CFF83289504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA294BF-B761-46E0-8F48-6CFF83289504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA294BF-B761-46E0-8F48-6CFF83289504}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
