@@ -13,10 +13,19 @@ namespace Aula17Predicate
             list.Add(new Product("Mouse", 50.00));
             list.Add(new Product("Tablet", 350.50));
             list.Add(new Product("HD Case", 80.90));
-
+            Action<Product> act = UpdatePrice; //Create Action
+            list.ForEach(act);
+            list.ForEach(UpdatePrice); //Action Delegate
+            foreach (Product item in list)
+            {
+                Console.WriteLine(item);
+            }
             //Solution with Lambda Expression
             list.RemoveAll(p => p.Price >= 100);
-
+            foreach (Product item in list)
+            {
+                Console.WriteLine(item);
+            }
             //Solution with Delegate Function
             list.RemoveAll(ProductTest);
 
@@ -25,6 +34,9 @@ namespace Aula17Predicate
         {
             return p.Price >= 100.0;
         }
-
+        public static void UpdatePrice(Product p)
+        {
+            p.Price += p.Price * 0.1;
+        }
     }
 }
