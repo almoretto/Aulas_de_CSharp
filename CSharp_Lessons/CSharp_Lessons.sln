@@ -95,7 +95,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula17Delegates", "..\Aula1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula17Predicate", "..\Aula17Predicate\Aula17Predicate.csproj", "{F7027E03-A7AE-4562-8450-0FDE46D740C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula17Linq", "..\Aula17Linq\Aula17Linq.csproj", "{B44FA7A7-8F95-4D24-883C-91621AE44EDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula17Linq", "..\Aula17Linq\Aula17Linq.csproj", "{B44FA7A7-8F95-4D24-883C-91621AE44EDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula17LinqSQL", "..\Aula17LinqSQL\Aula17LinqSQL.csproj", "{39160BAD-4A12-431B-99A6-90661EC0E8F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -291,6 +293,10 @@ Global
 		{B44FA7A7-8F95-4D24-883C-91621AE44EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B44FA7A7-8F95-4D24-883C-91621AE44EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B44FA7A7-8F95-4D24-883C-91621AE44EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39160BAD-4A12-431B-99A6-90661EC0E8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39160BAD-4A12-431B-99A6-90661EC0E8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39160BAD-4A12-431B-99A6-90661EC0E8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39160BAD-4A12-431B-99A6-90661EC0E8F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
